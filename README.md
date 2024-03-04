@@ -8,8 +8,7 @@ https://github.com/BigLadDylan/spotipaper/assets/76881322/956ceb7a-2f15-42d2-9df
 
 It connects to spotify's api through `spotipy` and as a result reveals my api token. 
 
-Contains a lot of AI code so i could see how easy it was to i
+Contains a lot of AI code so i could see how easy it was to implement, turns out pretty easy...
+WIll update this repo with instructions on how you could set it up when I have some time. 
 
-
-mplement, turns out pretty easy...
-WIll update this repo with instructions on how you could set it up when I have some time. For now, be jealous.
+For now, be jealous.
