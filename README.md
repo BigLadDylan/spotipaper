@@ -2,8 +2,6 @@
 
 Simple python script that beautifully and dynamically changes wallpaper based on current Spotify song playing. 
 
-https://github.com/BigLadDylan/spotipaper/assets/76881322/956ceb7a-2f15-42d2-9dfd-92aeaef8ee9c
-
 This script is the heart of my [dotfiles](https://github.com/BigLadDylan/dotfiles). The script, powered by [pywal](https://github.com/dylanaraps/pywal), transforms a *boring and static* colorscheme to dynamic eye candy with every song that you play.
 
 I love music and chances are that you do too! This is for the melomaniacs out there and perfectly encompasses the customisability of the linux operating system. 
