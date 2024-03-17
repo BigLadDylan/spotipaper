@@ -10,9 +10,11 @@ I love music and chances are that you do too! This is for the melomaniacs out th
 # SETUP
 - **DISCLAIMER** This has been tested on Arch Linux with [hyprland](https://hyprland.org/) (wayland). The script is, however, simple enough to easily be adapted to your system. This guide will focus on how to get it working on a similar setup.
 
-The script relies on these following packages:
-- **AUR**:
-```yay -Syu python python-pywal python-spotipy imagemagick swww pywal-discord pywalfox playerctl```
+#### Installation
+**AUR** (Arch):
+```
+yay -Syu python python-pywal python-spotipy imagemagick swww pywal-discord pywalfox playerctl
+```
 
 #### Creating a Spotify app:
 1. Assuming you have a spotify account, follow the link to create a developer profile and create a spotify app: https://developer.spotify.com/dashboard. This is to allow the script to interface with the spotify api.
