@@ -76,5 +76,3 @@ def CreateWallpaper():
     else:
         print("No URL to fetch")
 CreateWallpaper()
-
-# Limitations: Resolution cba to change. Wal errors generating pallete for songs with mostly one color. Sometimes albums fetched don't match spotify's.
