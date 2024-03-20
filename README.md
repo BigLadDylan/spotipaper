@@ -4,9 +4,6 @@ Simple python script that beautifully and dynamically changes wallpaper based on
 
 This script is the heart of my [dotfiles](https://github.com/BigLadDylan/dotfiles). The script, powered by [pywal](https://github.com/dylanaraps/pywal), transforms a *boring and static* colorscheme to dynamic eye candy with every song that you play.
 
-I love music and chances are that you do too! This is for the melomaniacs out there and perfectly encompasses the customisability of the linux operating system. 
-
-
 # SETUP
 - **DISCLAIMER** This has been tested on Arch Linux with [hyprland](https://hyprland.org/) (wayland). The script is, however, simple enough to easily be adapted to your system. This guide will focus on how to get it working on a similar setup.
 
@@ -34,3 +31,15 @@ yay -Syu python python-pywal python-spotipy imagemagick swww pywal-discord pywal
 
 # Configuration
  will finish later
+
+<details>
+  <summary>❗ LIMITATIONS ❗</summary>
+Works perfectly with a few caveats: 
+ 
+- Designed for 1920x1080 resolution. Higher resolutions will require upscaling the wallpaper, not a breaking limitation but your milage may vary (Can be changed if you fiddle with `main.py`
+- `Wal cannot generate a pallet` for albums with mostly one color, rare occurance. It will just use the previous song's pallet.
+- Sometime's albums fetched do not match the album that your client displays. This is due to the way in which artists reupload their music under different album covers eg: anniversary versions.  
+  
+</details>
+
+
